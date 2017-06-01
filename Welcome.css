@@ -1,0 +1,213 @@
+	body{
+		background-color:#FFF;
+	}
+	*{
+		box-sizing:border-box;
+		-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	outline:none;
+	}
+	form{
+		height:100%;
+		padding:0;
+		margin:0;
+	}
+		#outerDiv{
+		width: 60%;
+		height:80%;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		background-color:#003031;
+		padding:0;
+		margin:0;
+		left:275;
+		position:absolute;
+		display:block;
+		padding:0;
+		margin:0;
+	}
+	#innerDiv{
+		width:60%;
+		height:80%;
+		-moz-border-radius: 24px;
+		-webkit-border-radius: 24px;
+		background-color:transparent;
+		//background-color:black;
+		position:relative;
+		left:200;
+		top:60;
+		display:inline-block;
+		padding:0;
+		margin:0;
+	}
+
+	#headerDiv{
+		width:98%;
+		height:8%;
+		top:10;
+		display:block;
+		position:absolute;
+	    background-color:#003031;
+	    border-radius: 25px;
+	}
+	#ApplicationHeaderImage {
+	  max-width:80px;
+	  max-height:40px;
+	  width: auto;
+	  height: auto;
+	  position:relative;
+	  display:inline-block;
+	  top:5;
+	  left:8;
+	  padding:0;
+	  margin:0;
+	}
+	#createAccount {
+		width: 50%;
+		background-color: #CE0000;
+		color: white;
+		padding: 14px 20px;
+		margin:0;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		top:30;
+		left:90;
+		position:relative;
+		display:inline-block;
+	}
+	#createAccount:hover {
+		background-color: #45a049;
+	}
+	h1 {
+		color:#CE0000;
+		font-family:'Papyrus', fantasy;
+		font-size: 35px;
+		text-align: center;
+		text-shadow: 0 1px 1px #fff;
+	}
+
+	#ApplicationHeader {
+		color: #ffffff;
+		font-family: Cookie, sans-serif;
+		font-size: 40px;
+		position:relative;
+		display:inline-block;
+		top:0;
+		left:15;
+		padding:0;
+		margin:0;
+	}
+	label{
+		font-weight:bold;
+		width: 20%;
+		height: 10%;
+		margin:15px 10px 5px 10px;
+		 float:left;
+		color:#E7E7EF;
+		clear:left;
+		display:inline-block;
+		position:relative;
+		top:10;
+	}
+	.inputFields{
+		float:left;
+		width: 50%;
+		height: 10%;
+        padding-left:35px;
+		margin:15px 10px 5px 10px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		-webkit-border-radius: 50%;
+	    border-color:#003031; 
+        position:relative;
+        
+	}
+.warningimg {
+		float:left;
+		max-width:20%;
+		max-height:90%;
+		width: auto;
+		height: auto;
+	}
+	.paragraph{
+		color:#CE0000;
+		margin:0;
+	}
+
+	.alertDivs{
+		width:50%;
+		height:40px;
+		background-color:#C6CFD6;
+		position:absolute;
+		display:none;
+		margin:0;
+		padding:0;
+		border-style: solid;
+		overflow:auto;
+		left:130;
+		z-index:1;
+	}
+	#nameAlertDiv{
+	top:55;
+	}
+	
+	#usernameAlertDiv{
+	top:120;
+	}
+	
+	#emailAlertDiv{
+	top:185;
+	}
+	
+	#dobAlertDiv{
+		top:245;
+	}
+	
+	#passwordAlertDiv{
+		top:305;
+	}
+	
+    
+	a{
+		position:relative;
+		display:inline-block;
+		top:50;
+		left:0;
+		color:green;
+	}
+	a:hover{
+		color:blue;
+	}
+    
+	
+	.imageDiv{
+		position:relative;
+		top:30;
+		right:10;
+		float:right;
+		height:30px;
+		width:80px;
+		background-color:#003031;
+	} 
+	.correctImg{
+		max-height:100%;
+		max-width:30%;
+		height:auto;
+		width:auto;
+		display:none;
+	}
+	.wrongImg{
+		max-height:100%;
+		max-width:30%;
+		height:auto;
+		width:auto;
+		position:relative;
+		left:30;
+		display:none;
+	}
+	

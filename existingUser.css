@@ -1,0 +1,269 @@
+*{
+	 box-sizing:border-box;
+	  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	outline:none;
+}
+	input[type=text],[type=password] {
+			float:left;
+			width: 50%;
+			padding: 12px 20px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			height:25%;
+			left:30;
+			position:relative;
+			display:inline-block;
+	}
+	.fields{
+		    position:relative;
+			display:inline-block;
+			margin:0;
+			top:30;
+			width:90%;
+			height:30%;
+	}
+	#login{
+			width: 60%;
+			background-color: #CE0000;
+			color: white;
+			padding: 6px 20px;
+			position:relative;
+			top:20;
+			left:30;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+	}
+	a{
+		position:absolute;
+		display:inline-block;
+		top:220;
+		left:90;
+		color:white;
+	}
+	header {
+			border-radius: 25px;
+			padding: 25px;
+			margin-top:20px;
+			height:10px;
+			width:95%;
+			background-color:#003031;
+
+	}
+	img {
+		  margin-top:-10px;
+		  max-width:80px;
+		  max-height:40px;
+		  width: auto;
+		  height: auto;
+	}
+	label{
+			font-weight:bold;
+			width: 20%;
+			height:25%;
+			float:left;
+			color:#E7E7EF;
+			clear:left;
+			margin:0;
+			display:inline-block;
+			position:relative;
+			top:0;
+			left:0;
+
+	}
+	h1 {
+			color:#CE0000;
+			font-family:'Papyrus', fantasy;
+			font-size: 35px;
+			line-height: 160px;
+			text-align: center;
+			text-shadow: 0 1px 1px #fff;
+			left:440;
+			position:absolute;
+			display:inline-block;
+			width:30%;
+			height:10%;
+			margin:0;
+			top:30;
+	}
+
+	
+
+	#login:hover {
+		    background-color: #45a049;
+	}
+
+	#outerDiv{
+			width:40%;
+			height:50%;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			background-color:#003031;
+			position:absolute;
+			display:inline-block;
+			top:190;
+			left:380;
+	}
+    #mainDiv{
+		height:100%;
+		width:100%;
+		margin:0;
+		display:block;
+		
+	}
+	#innerDiv{
+			width:80%;
+			height:75%;
+			margin:0;
+			display:inline-block;
+			position:relative;
+			top:50;
+			left:120;
+			-moz-border-radius: 24px;
+			-webkit-border-radius: 24px;
+			background-color:transparent;
+	}
+	#ApplicationHeader {
+		color: #ffffff;
+		font-family: Cookie, sans-serif;
+		font-size: 40px;
+		position:relative;
+		display:inline-block;
+		top:0;
+		left:15;
+		padding:0;
+		margin:0;
+	}
+	#headerDiv{
+		width:98%;
+		height:8%;
+		top:10;
+		display:block;
+		position:absolute;
+	    background-color:#003031;
+	    border-radius: 25px;
+	}
+	#ApplicationHeaderImage {
+	  max-width:80px;
+	  max-height:40px;
+	  width: auto;
+	  height: auto;
+	  position:relative;
+	  display:inline-block;
+	  top:5;
+	  left:8;
+	  padding:0;
+	  margin:0;
+	}
+    .alertDivs{
+			width:40%;
+			height:50%;
+			display:none;
+			background-color:#C6CFD6;
+			position:absolute;
+			border-style: solid;
+			overflow:auto;
+			z-index:1;
+	}
+	#userNameAlertDiv{
+	         top:60;
+			left:120;
+	}
+	#passwordAlertDiv{
+	         top:135;
+			left:120;
+			
+	}
+	#authFailureDiv{
+			width:50%;
+			position:absolute;
+			display:none;	
+			background-color: #f44336; 
+			color: white;
+			margin:0;
+			top:540;
+			left:310;
+			height:10%;
+			-webkit-border-radius:50px;
+	}
+	#alertParagraph{
+		font-family: Cookie, sans-serif;
+		font-size: 30px;
+		display:inline-block;
+		position:absolute;
+		margin:0;
+		top:20;
+		left:170;
+	}
+	.closebtn {
+			color: white;
+			font-weight: bold;
+			position:absolute;
+			font-size: 35px;
+			line-height: 20px;
+			cursor: pointer;
+			left:640;
+			top:10;
+	}
+	.closebtn:hover {
+		   color: black;
+	}
+	.warningImg {
+			position:relative;
+			top:0;
+			display:inline-block;
+			max-width:20%;
+			max-height:90%;
+			width: auto;
+			height: auto;
+			margin:0;
+			left:65;
+	}
+	.paragraph{
+			margin:0;
+			color:#CE0000;
+			display:block;
+			width:100%;
+			height:70%;
+	}
+	
+	.imageDiv{
+			float:right;
+			height:15%;
+			width:20%;
+			position:absolute;
+			margin:0;
+			
+	} 
+	#passDiv{
+		top:110;
+	    left:310;
+		
+	}
+	#usDiv{
+		top:30;
+		left:310;
+	}
+	.correctImg{
+			max-height:100%;
+			max-width:30%;
+			height:auto;
+			width:auto;
+			display:none;
+	}
+	.wrongImg{
+		display:none;
+			max-height:100%;
+			max-width:30%;
+			height:auto;
+			width:auto;
+			position:relative;
+			left:25;
+			top:10;
+	}
+	
